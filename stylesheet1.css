@@ -1,0 +1,301 @@
+
+/*
+ 	* Bootstrap v5.0.2 (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+ 	* Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+/*
+Compatible with different device widths.
+Validated by CSS Validation Service.
+*/
+
+
+body {
+    background-color: #8DBF69;
+    font-family: 'Fira Sans', sans-serif;
+}
+address {
+    padding-top: 2em;
+}
+h2, p, .lead {
+    padding-left: 2em;
+
+}
+.blockquote {
+    font-size: 1.5em;
+}
+/* making carousel arrow more visible*/
+.navbar li {
+    display: block;
+    background-color: #8CA672;
+    color: black;
+    border-radius: 3px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.nav-item {
+    display: block;
+    background-color: #8CA672;
+    color: black;
+    border-radius: 3px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+.nav-link{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.navbar {
+    display: grid;
+    justify-content: center;
+}
+#Let {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+mark {
+    background-color: #8CA672;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/*.col img{
+    width: 200px;
+    bottom: 0;
+}*/
+ul {
+    columns: 200px;
+    break-inside: avoid;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+  }
+  li {
+    list-style-type:none;
+  }
+  .img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+.task {
+    font-size: 1em;
+}
+.table .task {
+    background-color: #4A5928;
+}
+.table {
+    border: black 1px solid;
+}
+#contact {
+    border: black 1px solid;  
+    margin-bottom: 2em;
+}
+.main, .leaves {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+input[type=text], select, textarea {
+	font-family: inherit;
+	font-size: 100%;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+button {
+    background-color: #4A5928;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*pseudo selectors are used to enhance interactivity */
+
+.container {
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.All {
+    margin-left: auto;
+    margin-right: auto;
+	border: black 1px solid;
+	max-width: 825px;
+    padding: 7px;
+}
+
+#name, #email {
+margin-top: 15px;
+margin-bottom: 15px;
+height: 3em;
+
+}
+
+#message {
+margin-top: 15px;
+margin-bottom: 15px;
+height: 10em;
+}
+.We {
+    text-align: center;
+}
+
+ li a:link,  li a:visited {
+    color: black;
+  }
+ 
+  .collapse li a:focus, .collapse li a:hover, .collapse li a:active {
+    color: yellow;
+  }
+.blockquote {
+    text-align: center;
+}
+.logo{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    justify-self: center;
+}
+#img1, #img2{
+    max-width: 200px;
+    max-height: 200px;
+}
+#img1 {
+    margin-left: 25%;
+    margin-right: 0%;
+}
+#img2 {
+    margin-left: 0%;
+    margin-right: 25%;
+}
+.smallnav {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media all and (max-width: 1153px) {
+    #img1, #img2{
+        max-width: 150px;
+        max-height: 150px;
+    }#img1 {
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+    #img2 {
+        margin-left: 0%;
+        margin-right: 5%;
+    }
+}
+@media all and (max-width: 1191px) {
+    #img1, #img2{
+        max-width: 200px;
+        max-height: 200px;
+    }#img1 {
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+    #img2 {
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+}
+@media all and (min-width: 992px) {
+    header {
+        background-image: url(Images/landscaping1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media all and (max-width: 732px) {
+    #img1, #img2{
+        max-width: 150px;
+        max-height: 150px;
+    }#img1 {
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+    #img2 {
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+}
+@media all and (min-width: 770px) {
+    
+    .smallnav {
+        width: 515px;
+    }
+    .btn {
+        margin-left: 40%;
+    }
+}
+
+@media all and (min-width: 600px) {
+    
+    .blockquote {
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        font-size: 2em;
+    }
+    .smallnav{
+        width: 515px;
+    }
+}
+@media all and (max-width: 600px) {
+
+    
+    .navbar-toggler{
+        color: black;
+    }
+    .navbar {
+        margin-left: 2.2%;
+    }
+    .col {
+        font-size: 15px;
+    }
+    #img1, #img2{
+        max-width: 100px;
+        max-height: 100px;
+    }#img1 {
+        margin-left: 10%;
+        margin-right: -3%;
+        margin-top: 10%;
+    }
+    #img2 {
+        margin-left: -3%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    .logo{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        justify-self: center;
+    }
+    .leaves {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+}
